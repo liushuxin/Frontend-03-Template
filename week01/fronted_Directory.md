@@ -2,45 +2,45 @@
 
 ## 一、HTML
 
-- ### HTML 常用标签及作用
+- HTML 常用标签及作用
 
-- ### HTML5 新增特性
+- HTML5 新增特性
 
-- ### HTML 词法
+- HTML 词法
 
-- ### HTML 语法
+- HTML 语法
 
 ## 二、CSS
 
-- ### 普通规则
+- 普通规则
 
-- #### 选择器
+  - 选择器
 
-- #### 属性
+  - 属性
 
-- #### 值
+  - 值
 
-- ### 机制
+- 机制
 
-- #### 排版
+  - 排版
 
-- #### 伪元素
+  - 伪元素
 
-- #### 动画
+  - 动画
 
-- #### 优先级
+  - 优先级
 
-- ### CSS 语法
+- CSS 语法
 
-- ### CSS 词法
+- CSS 词法
 
-- ### CSS 预处理器
+- CSS 预处理器
 
-  - #### LESS
+  - LESS
 
-  - #### SASS
+  - SASS
 
-  - #### CSS Modules
+  - CSS Modules
 
 ## 三、JavaScript
 
@@ -52,7 +52,7 @@
   - 类型
   - 执行过程
 
-## 五、浏览器工作原理
+## 四、浏览器工作原理
 
 - JavaScript Core
 
@@ -70,29 +70,29 @@
 
 * ReDraw
 
-## 六、Node
+## 五、Node
 
 - 进程，线程
 - 语法
 - NPM
 
-## 七、移动端
+## 六、移动端
 
-- ### 小程序
+- 小程序
 
-- ### React Native
+- React Native
 
-- ### Flutter
+- Flutter
 
-## 八、Electron
+## 七、 Electron
 
-## 九、Webpack
+## 八、Webpack
 
 - 打包原理
 - 常用配置项详解
 - 优化
 
-## 十、前端安全
+## 九、前端安全
 
 - XSS
 - CSRF
