@@ -264,7 +264,7 @@ function singleQuotedAttributeValue(c) {
   }
 }
 function afterAttributeName(c) {
-  if (c.match(spaceCharReg)) {
+  if (c.match(/^[\t\n\f ]$/)) {
     return afterAttributeName;
   } else if (c === `/`) {
     return selfClosingStartTag;
