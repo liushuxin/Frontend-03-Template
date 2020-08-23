@@ -55,7 +55,7 @@ function compare(sp1, sp2) {
 }
 function computeCSS(element) {
   var elements = stack.slice().reverse();
-  if (!element.computeStyle) element.computeStyle = {};
+  if (!element.computedStyle) element.computedStyle = {};
 
   for (let rule of rules) {
     var selectorParts = rule.selectors[0].split(" ").reverse();
@@ -72,7 +72,7 @@ function computeCSS(element) {
     if (j >= selectorParts.length) matched = true;
     if (matched) {
       var sp = specificity(rule.selectors[0]);
-      var computedStyle = element.computeStyle;
+      var computedStyle = element.computedStyle;
       for (var declaration of rule.declarations) {
         if (!computedStyle[declaration.property]) {
           computedStyle[declaration.property] = {};
@@ -88,7 +88,7 @@ function computeCSS(element) {
         }
       }
 
-      console.log("Element", element.computeStyle);
+      console.log("Element", element.computedStyle);
     }
   }
 
