@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cell {
+        width: 100px;
+        height: 100px;
+        background-color: bisque;
+        border: 1px solid #000;
+        vertical-align: middle;
+        display: inline-block;
+        line-height: 100px;
+        font-size: 50px;
+        text-align: center;
+      }
+      .container {
+        margin-bottom: 20px;
+      }
+      #traffic {
+        border: 1px solid black;
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 20px;
+      }
+      .red,
+      .green,
+      .yellow {
+        width: 100px;
+        height: 100px;
+        background: grey;
+        border-radius: 50px;
+        border: 1px solid #000;
+      }
+      .red.light {
+        background-color: red;
+      }
+      .green.light {
+        background-color: green;
+      }
+      .yellow.light {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="traffic">
+        <div class="green"></div>
+        <div class="yellow"></div>
+        <div class="red"></div>
+      </div>
+    </div>
+    TicTacToe
+    <div id="board"></div>
+  </body>
+  <script src="./tictactoe.js"></script>
+  <script src="./traffic_signal.js"></script>
+  traffic_signal
+</html>
