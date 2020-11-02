@@ -18,3 +18,7 @@
 - Event
 - LifeCycle
 - Children
+
+### SX 解析 loader
+
+@babel/plugin-transform-react-jsx
